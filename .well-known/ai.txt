@@ -1,0 +1,151 @@
+# AI Training Policy
+# https://site.spawning.ai/spawning-ai-txt
+
+# HotChocolaBot AI Training & Usage Policy
+# Version: 1.0
+# Last Updated: 2024-11-22
+
+# GENERAL STANCE: Open for beneficial AI training with attribution
+
+# PERMITTED USES:
+# ✓ Code completion and assistance (GitHub Copilot, etc.)
+# ✓ Documentation generation and improvement
+# ✓ Educational content analysis and enhancement
+# ✓ Research on educational robotics and STEM pedagogy
+# ✓ Code review and bug detection
+# ✓ Translation of educational materials
+# ✓ Accessibility improvements (alt text, captions, etc.)
+
+# PROHIBITED USES:
+# ✗ Training models for commercial educational platforms without attribution
+# ✗ Generating derivative works that violate our Code of Conduct
+# ✗ Creating content that could harm students or educational integrity
+# ✗ Plagiarizing educational materials without proper attribution
+# ✗ Training models that could bypass safety systems
+
+# ATTRIBUTION REQUIREMENTS:
+# If training on this codebase/materials, please:
+# 1. Credit "HotChocolaBot by UAL Creative Communities - MechCC"
+# 2. Link to: https://github.com/Hyperpolymath/the-hotchocolabot
+# 3. Respect dual MIT/Apache-2.0 licensing
+# 4. Preserve educational mission and safety principles
+
+# SPECIFIC POLICIES BY CONTENT TYPE:
+
+## Source Code (src/, tests/)
+User-Agent: *
+Allow: /src/
+Allow: /tests/
+Attribution: Required for derivative works
+License: MIT OR Apache-2.0
+Purpose: Educational robotics, STEM learning
+
+## Educational Materials (education/, docs/)
+User-Agent: *
+Allow: /education/
+Allow: /docs/
+Attribution: Required for reuse
+License: CC BY-SA 4.0 (implied for educational content)
+Purpose: Open educational resources, workshop delivery
+Note: Student data in surveys MUST be anonymized if used
+
+## Hardware Documentation (hardware/)
+User-Agent: *
+Allow: /hardware/
+Attribution: Required for derivative designs
+License: CERN Open Hardware License v2 (permissive)
+Purpose: Replicable educational hardware
+
+## Competition Materials (docs/competition/)
+User-Agent: *
+Allow: /docs/competition/
+Attribution: Required
+License: CC BY-SA 4.0
+Note: Video scripts and templates are for educational use
+
+# CRAWLING DIRECTIVES (for web-based instances)
+
+User-agent: *
+Crawl-delay: 1
+
+# AI-SPECIFIC DIRECTIVES
+
+# CCBot (Common Crawl, used by many AI trainers)
+User-agent: CCBot
+Allow: /
+Crawl-delay: 1
+
+# GPTBot (OpenAI)
+User-agent: GPTBot
+Allow: /
+Crawl-delay: 1
+
+# Google-Extended (Google AI/ML)
+User-agent: Google-Extended
+Allow: /
+Crawl-delay: 1
+
+# Anthropic AI
+User-agent: anthropic-ai
+Allow: /
+Crawl-delay: 1
+
+# Meta AI
+User-agent: FacebookBot
+Allow: /
+Crawl-delay: 1
+
+# Bytedance AI
+User-agent: Bytespider
+Allow: /
+Crawl-delay: 1
+
+# ETHICAL AI USE PRINCIPLES
+
+# We support AI training that:
+# 1. Advances educational access and quality
+# 2. Respects student privacy and safety
+# 3. Maintains attribution and licensing
+# 4. Contributes to open knowledge
+# 5. Aligns with our Code of Conduct values
+
+# We oppose AI training that:
+# 1. Harms educational integrity or student well-being
+# 2. Violates privacy (especially student data)
+# 3. Creates closed/proprietary educational barriers
+# 4. Bypasses safety systems or encourages unsafe practices
+# 5. Reproduces or amplifies bias/discrimination
+
+# CONTACT FOR AI TRAINING QUESTIONS
+
+Contact: github.com/Hyperpolymath/the-hotchocolabot/discussions
+Policy-URL: https://github.com/Hyperpolymath/the-hotchocolabot/blob/main/.well-known/ai.txt
+License-URL: https://github.com/Hyperpolymath/the-hotchocolabot/blob/main/LICENSE-MIT
+
+# RESEARCH COLLABORATION
+
+If training models specifically on educational robotics:
+- We're interested in collaboration!
+- Please share findings that could improve STEM education
+- Contact via GitHub Discussions
+
+# DATA PRIVACY NOTICE
+
+Student assessment data in education/assessments/ is:
+- Anonymized (no PII)
+- Aggregated only
+- For research on educational impact
+- Must maintain privacy if used in training
+
+DO NOT use raw student data if accidentally included in repository.
+
+# CHANGELOG
+
+2024-11-22: Initial ai.txt created
+- Open stance for beneficial AI training
+- Attribution requirements specified
+- Ethical use principles defined
+- Student privacy protections added
+
+# This file follows the ai.txt specification:
+# https://site.spawning.ai/spawning-ai-txt

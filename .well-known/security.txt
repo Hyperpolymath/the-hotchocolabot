@@ -1,0 +1,21 @@
+# Our security policy and reporting information
+# https://securitytxt.org/
+# RFC 9116
+
+Contact: https://github.com/Hyperpolymath/the-hotchocolabot/security/advisories/new
+Expires: 2025-12-31T23:59:59.000Z
+Preferred-Languages: en
+Canonical: https://github.com/Hyperpolymath/the-hotchocolabot/blob/main/.well-known/security.txt
+
+Policy: https://github.com/Hyperpolymath/the-hotchocolabot/blob/main/SECURITY.md
+
+# Acknowledgments: Security researchers who responsibly disclose
+# vulnerabilities will be credited in SECURITY.md (with permission)
+Acknowledgments: https://github.com/Hyperpolymath/the-hotchocolabot/blob/main/SECURITY.md#security-hall-of-fame
+
+# Encryption: Not currently supported for security reports
+# Use GitHub Security Advisories (encrypted by GitHub)
+
+# For educational robotics safety concerns
+# Please include: hardware version, configuration, reproduction steps
+# Priority levels: Critical (student safety), High (data breach), Medium, Low

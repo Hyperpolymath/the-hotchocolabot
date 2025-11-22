@@ -2,6 +2,10 @@
 
 **An Educational Robotics Platform for Teaching Reverse Engineering and Systems Thinking**
 
+[![RSR Bronze](https://img.shields.io/badge/RSR-Bronze-cd7f32?style=flat-square)](RSR_COMPLIANCE.md)
+[![License: MIT OR Apache-2.0](https://img.shields.io/badge/License-MIT%20OR%20Apache--2.0-blue?style=flat-square)](LICENSE-MIT)
+[![CI](https://img.shields.io/github/actions/workflow/status/Hyperpolymath/the-hotchocolabot/rust_ci.yml?style=flat-square)](https://github.com/Hyperpolymath/the-hotchocolabot/actions)
+
 Part of UAL Creative Communities' Postdisciplinary Mechatronics Group (MechCC)
 
 ## Overview
@@ -24,6 +28,7 @@ The deliberate complexity serves pedagogical purposes:
 - **Educational Mode**: Configurable delays and system introspection for learning
 - **Three-Ingredient System**: Cocoa, milk, and sugar with programmable recipes
 - **Mock Hardware**: Full simulation for development without Raspberry Pi
+- **RSR Compliant**: Bronze level (Rhodium Standard Repository), targeting Silver ([details](RSR_COMPLIANCE.md))
 
 ## Hardware Requirements
 

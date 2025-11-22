@@ -1,0 +1,203 @@
+# humanstxt.org
+# The humans responsible & technology colophon
+
+# TEAM
+
+  Lead Developer & Educational Designer: [Your Name]
+  Site: github.com/Hyperpolymath
+  From: University of the Arts London
+
+  Organization: UAL Creative Communities - MechCC
+  Site: [To be added]
+  Location: London, United Kingdom
+
+# THANKS
+
+  Rust Community -- For memory-safe, type-safe tools
+  Embedded Rust Working Group -- For Raspberry Pi support
+  Robotics for Good Youth Challenge -- For inspiration and framework
+  ITU / FAO -- For organizing the competition
+  Open Source Hardware Community -- For component guidance
+  Students -- For testing, feedback, and inspiring us to teach better
+  Workshop Venues -- For hosting and supporting STEM education
+
+  All Contributors -- See git log and CHANGELOG.md
+
+# TECHNOLOGY COLOPHON
+
+  ## Languages
+    - Rust 2021 Edition (primary)
+    - Markdown (documentation)
+    - TOML (configuration)
+    - Shell (build automation)
+
+  ## Core Dependencies
+    - tokio -- Async runtime for concurrent hardware control
+    - rppal -- Raspberry Pi GPIO/I2C library
+    - serde/toml -- Configuration management
+    - tracing -- Structured logging
+    - smlang -- State machine for safety verification
+    - async-trait -- Hardware abstraction traits
+    - anyhow/thiserror -- Error handling
+
+  ## Development Tools
+    - cargo -- Rust package manager and build tool
+    - rustfmt -- Code formatting
+    - clippy -- Linting and code quality
+    - cargo-audit -- Security vulnerability scanning
+    - cross -- Cross-compilation for ARM targets
+    - GitHub Actions -- CI/CD automation
+    - just -- Command runner (justfile)
+    - Nix -- Reproducible builds (flake.nix)
+
+  ## Hardware Platform
+    - Raspberry Pi 4 (4GB RAM)
+    - 3× Peristaltic pumps (12V DC)
+    - TMP102 I2C temperature sensor
+    - LCD1602 I2C display
+    - 3-channel relay module
+    - Food-grade silicone tubing
+    - Emergency stop button
+    - Status LED indicator
+
+  ## Standards & Frameworks
+    - Rhodium Standard Repository (RSR) -- Bronze+ level compliance
+    - Tri-Perimeter Contribution Framework (TPCF) -- Perimeter 3 (Community Sandbox)
+    - RFC 9116 -- security.txt format
+    - Contributor Covenant 2.1 -- Code of Conduct
+    - Semantic Versioning 2.0.0 -- Version numbering
+    - Keep a Changelog -- CHANGELOG.md format
+    - WCAG 2.1 AA -- Accessibility (future GUI)
+
+  ## Educational Frameworks
+    - Heutagogic Learning -- Self-directed discovery
+    - Constructivism -- Learning through making
+    - Reverse Engineering Pedagogy -- Deconstruction methodology
+    - Systems Thinking -- Component interaction analysis
+
+  ## Licenses
+    - Code: MIT OR Apache-2.0 (dual license)
+    - Documentation: CC BY-SA 4.0 (implied)
+    - Hardware: CERN OHL v2 (permissive)
+
+  ## Architectural Principles
+    - Memory Safety -- Rust ownership model, zero unsafe blocks
+    - Type Safety -- Compile-time guarantees, state machine verification
+    - Offline-First -- No network dependencies, air-gapped capable
+    - Safety-Critical -- CNO (Certified Null Operations) principles
+    - Educational Transparency -- Over-engineering for pedagogy
+    - Open Source -- All code, hardware, and curriculum freely available
+
+  ## Design Influences
+    - Oblíbený Phase-Separated Approach -- Research methodology
+    - CNO Safety Principles -- Formal verification concepts
+    - UPM (Universal Project Manager) -- Project management theory
+    - CCCP Manifesto -- Emotional safety in open source
+    - Food Security Automation -- Competition theme connection
+
+  ## Documentation Tools
+    - Markdown -- All documentation
+    - ASCII Art -- Diagrams in text
+    - Mermaid -- Complex diagrams (future)
+    - GitHub Flavored Markdown -- README formatting
+
+  ## Build & Deployment
+    - Cross-compilation -- x86_64 → armv7-unknown-linux-gnueabihf
+    - GitHub Releases -- Automated binary distribution
+    - Cargo workspaces -- Modular crate structure
+    - Profile optimization -- Size optimization for embedded
+
+  ## Testing & Quality
+    - Unit tests -- Component-level verification
+    - Integration tests -- System-level validation
+    - Mock implementations -- Hardware-independent testing
+    - Property-based testing -- proptest (future)
+    - Continuous Integration -- GitHub Actions on every push
+    - Security auditing -- cargo-audit in CI/CD
+
+  ## Version Control
+    - Git -- Source control
+    - GitHub -- Repository hosting, Issues, Discussions, Actions
+    - Conventional Commits -- Commit message format
+    - Branch Strategy -- Feature branches, main branch protection
+
+  ## Community Tools
+    - GitHub Issues -- Bug tracking, feature requests
+    - GitHub Discussions -- Community Q&A, ideas
+    - GitHub Security Advisories -- Vulnerability reporting
+    - Markdown -- Contributor guides (CONTRIBUTING.md, etc.)
+
+# STATS (as of 2024-11-22)
+
+  ## Codebase
+    - Rust Lines of Code: ~2,100
+    - Documentation Lines: ~15,000
+    - Files: 50+
+    - Commits: ~10 (initial development)
+    - Contributors: 1 (founding)
+
+  ## Hardware
+    - Component Count: 15+ major components
+    - Estimated Cost: £212-353
+    - Assembly Time: 6-10 hours
+    - Power Consumption: ~40W peak
+
+  ## Educational
+    - Workshop Duration: 2.5 hours
+    - Target Ages: 12-18 years
+    - Activity Sheets: 6
+    - Assessment Questions: 30 (pre/post combined)
+    - Students Trained: 0 (planned: 30+)
+
+  ## Documentation
+    - README: 400+ lines
+    - Hardware Docs: 1,300+ lines
+    - Educational Materials: 1,800+ lines
+    - Competition Materials: 1,600+ lines
+    - Total Documentation: 15,000+ lines
+
+# PROJECT TIMELINE
+
+  2024-11: Initial development, RSR compliance, competition prep
+  2025-Q1: Hardware assembly, workshop pilot testing
+  2025-Q2: Competition submission, impact data collection
+  2025-Q3: Potential competition finals (Geneva, Switzerland)
+  2025-Q4: Academic paper submission, wider deployment
+
+# INSPIRATIONS
+
+  - "Make it work, make it right, make it fast" -- Kent Beck
+  - "Simplicity is prerequisite for reliability" -- Edsger Dijkstra
+  - "Programs must be written for people to read" -- Abelson & Sussman
+  - "The best way to predict the future is to invent it" -- Alan Kay
+  - "Learning by doing" -- John Dewey
+  - "Over-engineering is under-appreciated" -- HotChocolaBot philosophy
+
+# VALUES
+
+  🎓 Education First -- Every decision prioritizes learning
+  🔒 Safety Critical -- Hardware and emotional safety paramount
+  🌐 Open Source -- Knowledge should be freely shared
+  ♿ Accessibility -- Inclusive design for all learners
+  🌍 Global Reach -- Local impact, global replication
+  🔬 Research Grounded -- Evidence-based pedagogy
+  🤝 Community Driven -- Welcoming, collaborative, respectful
+
+# SOCIAL
+
+  Repository: github.com/Hyperpolymath/the-hotchocolabot
+  Issues: github.com/Hyperpolymath/the-hotchocolabot/issues
+  Discussions: github.com/Hyperpolymath/the-hotchocolabot/discussions
+  Organization: UAL Creative Communities - MechCC
+
+# MOTTO
+
+  "Making complexity accessible, one hot chocolate at a time." ☕🤖
+
+# LAST UPDATE
+
+  2024-11-22
+
+# SITE
+
+  https://github.com/Hyperpolymath/the-hotchocolabot
